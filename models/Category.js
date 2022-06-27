@@ -4,23 +4,6 @@ const sequelize = require('../config/connection.js');
 
 class Category extends Model {}
 
-// id
-
-// Integer.
-
-// Doesn't allow null values.
-
-// Set as primary key.
-
-// Uses auto increment.
-
-  // category_name
-
-  // String.
-
-  // Doesn't allow null values.
-
-
 Category.init(
   {
     id: {
@@ -33,8 +16,6 @@ Category.init(
       type: DataTypes.STRING,
       allowNull: false
     }
-    // define columns
-
   },
   {
     sequelize,
